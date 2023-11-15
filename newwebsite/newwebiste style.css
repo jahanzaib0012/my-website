@@ -1,0 +1,173 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+.container{
+
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 800px;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background-color:  rgb(227, 224, 224);
+}
+.logo{
+    float: left;
+    height:98%;
+    width: 30%;
+   
+}
+.companyname{
+ width: 40%;
+ float: left;
+ font-size: 40px; 
+ margin-left: 30px;
+ margin-top: 3%;
+
+} 
+.loginraea{
+    width: 19%;
+    height: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.nav{
+    
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    
+}  
+
+
+
+a{
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    padding: 0 25px;
+    line-height: 10px;
+    text-align: center;
+}
+.outerslide{
+    position: relative;
+    width: 1260px;
+    height: 800px;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.innerslide{ 
+    position: relative;
+    width: 7560px;
+    height: 600px;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.innerslide img{
+
+    width: 1260px;
+    float: left;
+    height: 600px;
+
+}
+@keyframes slide{
+
+    0%{left: 0px;}
+    8%{left: 0px;}
+    15%{left: -1260px;}
+    23%{left:-1260px}
+    30%{left:-2520px;}
+    38%{left:-2520px}
+    45%{left: -3780px;}
+    53%{left: -3780px;}
+    60%{left: -5040px;}
+    68%{left:-5040px}
+    75%{left:-6300px;}
+    83%{left:-6300px;}
+    90%{left:-7560px;}
+    100%{left: 0px;}
+}
+
+
+
+.bglogo{
+    background-image: url(NicePng_toyota-logo-png-transparent_3770207.png);
+    height:600px;
+    width: 800px;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    margin-top: 300px;
+    
+    
+   
+}
+a :hover{
+    background-color:red;
+
+}
+.active{
+    background-color: rgb(227, 224, 224) ;
+    color: black;
+}
+
+#a{
+    float: left;
+}
+#b{
+    float: left;
+}
+#c{
+    float: right;
+}
+#d{
+    float: right;
+
+}
+.frontimage{
+    width: 1000px;
+    left: 100px;
+}
+#para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:60px ;
+    margin-top: 20px;
+
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 100px;
+}
+ul{
+    list-style-type: square;
+    margin-left: 30px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.videotext{
+    text-align: center;
+    color: red;
+    line-height: 20px;
+}
+.videopara{
+   
+    text-align: left;
+    float: right;
+    width: 500px;
+    height: 450px;
+    margin-top: -450px;
+    margin-right: 20px;
+    line-height: 30px;
+    
+}
